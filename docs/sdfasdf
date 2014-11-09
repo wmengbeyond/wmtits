@@ -1,0 +1,9 @@
+参数    | 类型   | 描述           | 示例                 | 枚举         |备注
+init/ 表示广告资源配置(AFP 不需要该参数)
+  init/trigger/ 数组，表示广告触发点
+     id |文本    | 广告位分组 id   | "id":100            |              |
+action  |文本    | 事件类型        | "action":"preroll"  | 前贴：preroll 中贴：midroll
+                                                          后贴：postroll
+浮层：float
+缓冲：buffer
+暂停：pause |
